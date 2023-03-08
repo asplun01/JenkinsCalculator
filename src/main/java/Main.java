@@ -25,18 +25,18 @@ public class Main {
       else if (words[0].equals("multiply")) {
         int num1 = Integer.parseInt(words[1]);
         int num2 = Integer.parseInt(words[2]);
-        calc.multiply(num1, num2);
+        System.out.println(calc.multiply(num1, num2));
       }
       else if (words[0].equals("divide")) {
         int num1 = Integer.parseInt(words[1]);
         int num2 = Integer.parseInt(words[2]);
-        calc.divide(num1, num2);
+        System.out.println(calc.divide(num1, num2));
       }
       else if (words[0].equals("fib")) {
-        calc.fibonacciNumberFinder(Integer.parseInt(words[1]));
+        System.out.println(calc.fibonacciNumberFinder(Integer.parseInt(words[1])));
       }
       else if (words[0].equals("binary")) {
-        calc.intToBinaryNumber(Integer.parseInt(words[1]));
+        System.out.println(calc.intToBinaryNumber(Integer.parseInt(words[1])));
       }
       line = reader.readLine();
       words = line.split("\\s+");
