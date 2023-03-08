@@ -1,13 +1,13 @@
 import java.util.UUID;
 
 class Calculator {
+
     Calculator(){
 
     }
 
     int add(int a , int b){
         return a + b;
-        
     }
 
     int subtract(int a , int b){
@@ -49,7 +49,7 @@ class Calculator {
         while (counter < n) {
 
             // Print the number
-            System.out.print(num1 + " ");
+            //System.out.print(num1 + " ");
 
             // Swap
             int num3 = num2 + num1;
